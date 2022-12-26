@@ -1,0 +1,86 @@
+/*inserimento immagine come sfondo*/
+body {
+  background-image: url("background.jpg");
+  background-size: 100% 150%;
+   padding-top: 80px;
+
+}
+/*inserimento quadrato nero semi-trasparente*/
+section {
+  border-radius: 40px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  padding: 50px 50px 50px 50px;
+}
+
+/* misure Logo*/
+
+img {
+  width: 40%;
+  height: 40%;
+  padding-left: 100px;
+
+/*inserimento logo e intestazione*/
+}
+
+.intestazione {
+  width: 500px;
+  font-family:cursive;
+  color: #7CFC00;
+  padding-left: 300px;
+
+
+}
+
+/* border verde con bottoni all'interno*/
+.bordo {
+  margin: auto;
+  border-style: solid;
+  border-color: #7CFC00;
+  width: 900px;
+  padding: 10px;
+  text-align: center;
+  background-color: #7CFC00;
+}
+
+/* colore e carattere testo*/
+div {
+  padding-left: 40px;
+  font-family: cursive;
+  color: white;
+
+
+
+}
+span {
+  font-size: 17pt;
+  font-style: italic;
+}
+ h4:before {
+   content: "\21A6";
+
+ }
+ /* inserimento border come indicatore di livello*/
+#caricamento1 {
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: #F4A460;
+  border-color: #F4A460;
+
+
+}
+#caricamento2 {
+  border-radius: 20px;
+  width: 500px;
+  height: 40px;
+  background-color: #00FF00;
+  border-color: #00FF00;
+}
+#caricamento3 {
+  border-radius: 20px;
+  width: 30px;
+  height: 40px;
+  background-color: #DC143C;
+  border-color: #DC143C;
